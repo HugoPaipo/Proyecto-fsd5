@@ -1,0 +1,41 @@
+*{padding:0px;
+    margin: 0px;}
+  body{display:grid;
+        grid-template-columns: 1fr;
+    }  
+    nav{display: flex;
+        justify-content:flex-end;
+        color:white;
+   
+    }
+    header { height: 25vh;
+    
+    color: white;
+    text-align: center;
+    text-justify:center;
+    background-color: black;}
+    
+
+    .barra{display: flex;
+      justify-content: space-around;
+        color: white;
+        background-color: black;
+        border:2px;
+        border-color:rgb(14,214,64);
+       
+      }
+    main{display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(5,1fr);
+        height:100vh;
+       
+        align-content: center;
+         background: rgb(14,214,64);
+        background: linear-gradient(0deg, rgba(14,214,64,1) 10%, rgba(8,5,0,1) 90%);}  
+    main div{
+            color:white;
+            width: 100%;}
+        footer{height: 25vh;
+           color:white;
+           background-color: black;
+        }
