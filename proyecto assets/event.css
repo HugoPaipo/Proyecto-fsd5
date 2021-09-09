@@ -25,7 +25,7 @@
           position:relative;
           z-index: 10;
           background-color: rgba(0,0,0,.1);
-          gap: 2px;
+          
           color: white;
           padding-top: 10px;     }
 
@@ -38,4 +38,5 @@
   text-shadow: rgba(14,214,64,1) 0px 0px 5px,rgba(14,214,64,1) 0px 0px 10px,rgba(14,214,64,1) 0px 0px 15px, rgba(14,214,64,1) 0px 0px 20px, rgba(14,214,64,1) 0px 0px 30px,rgba(14,214,64,1) 0px 0px 40px, rgba(14,214,64,1) 0px 0px 50px, rgba(14,214,64,1) 0px 0px 75px;
                           }             
 .descripcion{padding-top: 7px;}
+
 ul{list-style-type:none;}

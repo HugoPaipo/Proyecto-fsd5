@@ -2,7 +2,7 @@
     margin: 0px;
     box-sizing: border-box;}
 
-body{width: 100vw;}
+body{width: auto;}
 
 .barrsup{display: flex;
         justify-content:flex-end;
@@ -34,12 +34,12 @@ header {
 
 
 
-                      
+                    
 
 
                 
                 
-            }
+            
                 
       
                     

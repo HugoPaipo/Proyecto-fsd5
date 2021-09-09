@@ -1,4 +1,5 @@
-body{width: 100vw;}
+
+
 
 .indeximg{background-image:url("raveitHD.png");
     background-repeat: no-repeat;
@@ -8,12 +9,15 @@ body{width: 100vw;}
     display:flex; 
     justify-content: space-around;
   }
-  
-  .aboutindex{height: 40vh;
+  .indexnav{height: 20vh;
+            background-color: black;
+            color:white;}
+
+  .aboutindex{height: 55vh;
         color:white;
         background-color: black;
         padding-top: 12px;
-              
+        text-overflow: clip;     
               
           }
   #about{ flex-direction: row;
