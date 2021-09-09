@@ -1,0 +1,41 @@
+.barrape{height:35px;
+    color:rgba(14,214,64,1);
+    background-color: black;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+          }
+.barrape button{background-color: black;
+            color:rgba(14,214,64,1);
+            } 
+.pemain{height: 510px;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(14,214,64,1) 50%, rgba(0,0,0,1) 95%);}
+                                                        
+.pecontenedor{display:flex;
+          flex-wrap:wrap ;
+          align-content: flex-start;
+          justify-content: space-around;
+          align-items: center;
+          overflow: scroll;
+          overflow: auto;
+          height: 500px;
+          position:relative;
+          z-index: 10;
+          background-color: rgba(0,0,0,.1);
+          gap: 2px;
+          color: white;
+          padding-top: 10px;     }
+
+.petitle{display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Jazz LET';
+  font-size: 20px;
+  color: white;
+  text-shadow: rgba(14,214,64,1) 0px 0px 5px,rgba(14,214,64,1) 0px 0px 10px,rgba(14,214,64,1) 0px 0px 15px, rgba(14,214,64,1) 0px 0px 20px, rgba(14,214,64,1) 0px 0px 30px,rgba(14,214,64,1) 0px 0px 40px, rgba(14,214,64,1) 0px 0px 50px, rgba(14,214,64,1) 0px 0px 75px;
+                          }             
+.descripcion{padding-top: 7px;}
+ul{list-style-type:none;}

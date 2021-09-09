@@ -1,0 +1,22 @@
+body{width: 100vw;}
+
+.indeximg{background-image:url("raveitHD.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height:600PX;
+    display:flex; 
+    justify-content: space-around;
+  }
+  
+  .aboutindex{height: 40vh;
+        color:white;
+        background-color: black;
+        padding-top: 12px;
+              
+              
+          }
+  #about{ flex-direction: row;
+              text-align:center;
+              height: 100%;
+              font-size :13px; 
