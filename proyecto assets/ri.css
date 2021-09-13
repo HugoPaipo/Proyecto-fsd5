@@ -2,20 +2,25 @@
     margin: 0px;
     box-sizing: border-box;}
 
-body{width: auto;}
 
-.barrsup{display: flex;
+.barrasup{display: flex;
         justify-content:flex-end;
         text-decoration: none;
         background-color: black;
+        border-color:rgba(14,214,64,1);
+        border-style:ridge;
+        border-left:none ;
+        border-right:none ;
+        border-top: none;  
+        border-width: 1px;}
+
+.barrasup button{background-color: black;
+            color:rgba(14,214,64,1);
+            border-style: inherit;}        
    
-    }
-.home{display: flex;
-          color: rgba(14,214,64,1);
-          border-style:hidden;
-          background-color: black;
-          text-decoration-line: none;
-          padding-right:20px ;
+  
+.home{text-decoration-line: none;
+        padding-right:20px ;
           }
 
                  
@@ -26,13 +31,34 @@ header {
       background-position: center;
        height: 250px;
     }
+aside{display:none;}
+
 .foot{background-color: black;
-      color: white;}    
-    
+      color: white;
+    text-align: center;
+    height: 65px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-color:rgba(14,214,64,1);
+    border-style:ridge;
+    border-left:none ;
+    border-right:none ;
+    border-bottom: none;  
+    border-width: 1px;} 
 
+.copyr{font-size: 10px;
+    }    
 
+@media (min-width:1260px ) {
 
+.barrasup{height: 25px;}
 
+header{background-image:url("raveitHD.png");
+         height: 550px;}
+
+.copyr{font-size: 15px; }
+  }
 
                     
 
