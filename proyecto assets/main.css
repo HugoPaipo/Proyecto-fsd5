@@ -10,12 +10,16 @@
     border-style:ridge;
     border-left:none ;
     border-right:none ;
-    border-width: 1px;        }
-            
+    border-width: 1px;       
+ }
+
+
+
 #eventossel{font-weight: bold;
          color:white;
          background-color: black;
          border-style: none;}
+.responsive_event:before{ content: attr(data-phonetext);}      
 
 .barra select{height: 30px;}
 
@@ -95,4 +99,39 @@ main{height:100vh;
     overflow: hidden;
     text-overflow: clip;}
 
-@media (min-width:1260px )   {}  
+@media (min-width:1260px )   {
+.barra{height:50px;
+    display:grid;
+grid-template-areas:"evento texto genero lugar boton" ;
+grid-template-rows: 50px;
+grid-template-columns:560px 180px 180px 180px 180px ;
+padding-bottom:0px;
+padding-top: 0px;}
+
+.diveventossel{display: block;
+            grid-area:evento ;
+            height: 50px;
+            width: 560px;
+            display:flex;
+            justify-content:space-evenly;
+            align-items: center;
+            padding-right:50px ;
+}
+
+#eventossel{height: 40px;
+width:320px ;
+font-size: 20px; 
+}
+
+#Lugarsel{height: 40px;
+    width:125px ;
+    grid-area:lugar ;}
+
+#Generosel{height: 40px;
+        width:125px ;
+        grid-area:genero;}
+
+.barra span{display: block;
+    grid-area:texto ;} 
+.filtros{grid-area:boton ;}      
+}  
