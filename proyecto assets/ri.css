@@ -1,7 +1,8 @@
 *{padding:0px;
     margin: 0px;
     box-sizing: border-box;}
-
+body {width:auto;
+  }
 
 .barrasup{display: flex;
         justify-content:flex-end;
@@ -14,13 +15,17 @@
         border-top: none;  
         border-width: 1px;}
 
-.barrasup button{background-color: black;
-            color:rgba(14,214,64,1);
-            border-style: inherit;}        
+.inicio{background-color: black;
+          color:rgba(14,214,64,1);
+          border-style: inherit;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-size:13px ;
+         }        
    
   
 .home{text-decoration-line: none;
-        padding-right:20px ;
+  position: relative;
+  right:30px; ;
           }
 
                  
@@ -29,7 +34,7 @@ header {
       background-repeat: no-repeat;
       background-size: 100% 100%;
       background-position: center;
-       height: 250px;
+       height: 280px;
     }
 aside{display:none;}
 
@@ -54,15 +59,43 @@ aside{display:none;}
 
 .barrasup{height: 25px;}
 
+.inicio{height:24px ;
+  width:45px ;}
+
+.home{height:24px ;
+width:45px ;}
+
 header{background-image:url("raveitHD.png");
-         height: 550px;}
+         height: 720px;}
+aside{display: block;}
 
 .copyr{font-size: 15px; }
-  }
-
+  
+.foot{height: 80px;}
                     
 
+}
+@media (min-width:1900px ) {
 
+.barrasup{height: 40px;
+  border-width: 2px;}
+
+.inicio{height:38px ;
+  width:85px ;
+  font-size:25px ;}
+
+.home{height:38px ;
+width:85px ;}
+
+header{background-image:url("raveitFULLHD.png");
+         height: 1090px;}
+aside{display: block;}
+
+.copyr{font-size: 25px; }
+  
+.foot{height: 120px;
+  border-width: 2px;}    
+}
                 
                 
             

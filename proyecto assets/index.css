@@ -1,12 +1,8 @@
-
-
-body{width:auto;}
-
 .indeximg{background-image:url("raveitCEL.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    height:600PX;
+    height:620PX;
     display:flex; 
     justify-content: center;
    
@@ -18,13 +14,13 @@ main button{text-decoration: none;
     border-style: none;}
 
 .indexnav{height: 25vh;
-            background-color: black;
-            color:white;
-            border-style: ridge;
-            border-left: none;
-            border-right: none;
-            border-color:rgba(14,214,64,1);
-            border-width: 1px;
+          background-color: black;
+          color:white;
+          border-style: ridge;
+          border-left: none;
+          border-right: none;
+          border-color:rgba(14,214,64,1);
+          border-width: 1px;
             
              }
 .indexnav div{display: flex ;
@@ -64,7 +60,7 @@ main button{text-decoration: none;
 @media (min-width:1260px ){
 
 .indeximg{background-image:url("raveitHD.png");
-height: 100vh;}
+height: 720px;}
 
 .indeximg button{
 height:35px;
@@ -84,4 +80,32 @@ row-gap: 10px;}
 .indexnav h3 {font-size: 27px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
 #about{font-size: 20px;}
-}           
+} 
+@media (min-width:1900px ) {
+
+.indeximg{background-image:url("raveitFULLHD.png");
+ height:1090px;
+}
+
+.indeximg button{
+  height:50px;
+  font-size: 20px;
+}
+.indexnav{height:50vh ;}
+
+.indexnav div{height:50vh ;
+row-gap: 25px;}
+
+.indexnav button{ font-size: 32px;
+  width: 180px;
+  height: 60px;}
+
+.h3desktop{display:block;}
+
+.indexnav h3 {font-size: 35px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+
+#about{font-size: 25px;
+  line-height:35px ;}
+
+}          

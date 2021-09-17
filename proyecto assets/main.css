@@ -18,8 +18,9 @@
 #eventossel{font-weight: bold;
          color:white;
          background-color: black;
-         border-style: none;}
-.responsive_event:before{ content: attr(data-phonetext);}      
+         border-style: none;
+        font-family:Cochin, Georgia, Times, 'Times New Roman', serif;}
+      
 
 .barra select{height: 30px;}
 
@@ -39,7 +40,8 @@
 .filtros{height: 25px;
 background-color: black;
 color: white;
-border-style:solid;}
+border-style:solid;
+font-family: Verdana, sans-serif;}
 
 .filtros:hover{background-color: white;
 color: black;}
@@ -56,7 +58,7 @@ main{height:100vh;
           position:relative;
           z-index: 10;
           background-color: rgba(0,0,0,.1);
-          gap: 2px;
+         
             }
 
 .event {display: grid; 
@@ -90,10 +92,11 @@ main{height:100vh;
 .maintext{ grid-area: etext;
     display:flex;
     flex-direction:column;
-    padding-left:10px ;
+    position: relative;
+    left:30px;
     font-family: 'Trebuchet MS',  sans-serif;
     color: white;
-    font-size:16px; ;
+    font-size:16px; 
     gap: 4px;
     white-space: nowrap; 
     overflow: hidden;
@@ -115,23 +118,163 @@ padding-top: 0px;}
             display:flex;
             justify-content:space-evenly;
             align-items: center;
-            padding-right:50px ;
+             position: relative;
+             right:90px;
 }
 
-#eventossel{height: 40px;
+#eventossel{height: 35px;
 width:320px ;
-font-size: 20px; 
+font-size: 18px;
+
 }
 
-#Lugarsel{height: 40px;
+#Lugarsel{height: 35px;
     width:125px ;
+    font-size :15px; 
     grid-area:lugar ;}
 
-#Generosel{height: 40px;
+#Generosel{height: 35px;
         width:125px ;
+        font-size :15px; 
         grid-area:genero;}
 
 .barra span{display: block;
-    grid-area:texto ;} 
-.filtros{grid-area:boton ;}      
-}  
+    grid-area:texto ;
+    font-size :17px; }
+
+.filtros{grid-area:boton ;
+        width: 80px; 
+        height: 30px;
+        font-size: 15px;
+         
+}
+main{display:grid;
+grid-template-areas:"aside1 contenedor aside2" ;  
+grid-template-columns:200px 880px 200px ;
+}
+
+.contenedor{grid-area:contenedor ;}
+
+.aside1{grid-area: aside1;
+    border-color:black;
+    border-style:groove;
+    border-top:none ;
+    border-left:none ;
+    border-bottom: none;
+    border-width: 1px;          
+}
+
+.aside2{grid-area: aside2 ;
+    border-color:black;
+    border-style:groove;
+    border-top:none ;
+    border-bottom:none ;
+    border-right: none;
+    border-width: 1px;  }
+
+.event{height: 250px; ;
+    grid-template-columns:180px 700px ;
+    grid-template-rows:50px 200px;
+    }
+
+.mainflyer{width: 180px;
+height: 248px; }
+
+.maintitle{font-size: 30px;}
+
+.maintext{font-size:20px;
+    gap: 18px;
+    width:670px ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+} 
+@media (min-width:1900px ) {
+
+    .barra{height: 76px;
+        display:grid;
+    grid-template-areas:"evento texto genero lugar boton" ;
+    grid-template-rows: 76px;
+    grid-template-columns:760px 290px 290px 290px 290px ;
+    padding-bottom:0px;
+    padding-top: 0px;
+    border-width: 2px;       
+}
+
+    
+    .diveventossel{display: block;
+                grid-area:evento ;
+                height: 76px;
+                width: 760px;
+                display:flex;
+                justify-content:space-evenly;
+                align-items: center;
+                 position: relative;
+                 right:90px;
+    }
+    
+    #eventossel{height: 58px;
+    width:560px ;
+    font-size: 26px; 
+    }
+    
+    #Lugarsel{height: 58px;
+        width:190px ;
+        font-size :21px; 
+        grid-area:lugar ;}
+    
+    #Generosel{height: 58px;
+            width:190px ;
+            font-size :21px; 
+            grid-area:genero;}
+    
+    .barra span{display: block;
+        grid-area:texto ;
+        font-size :21px; }
+    
+    .filtros{grid-area:boton ;
+            width: 120px; 
+            height: 45px;
+            font-size:20px ;
+            
+    }
+    main{display:grid;
+    grid-template-areas:"aside1 contenedor aside2" ;  
+    grid-template-columns:380px 1160px 380px ;
+    }
+    
+    .contenedor{grid-area:contenedor ;}
+    
+    .aside1{grid-area: aside1;
+        border-color:black;
+        border-style:groove;
+        border-top:none ;
+        border-left:none ;
+        border-bottom: none;
+        border-width: 2px;          
+    }
+    
+    .aside2{grid-area: aside2 ;
+        border-color:black;
+        border-style:groove;
+        border-top:none ;
+        border-bottom:none ;
+        border-right: none;
+        border-width: 1px;  }
+    
+    .event{height: 300px; ;
+        grid-template-columns:264px 896px ;
+        grid-template-rows:75px 225px;
+        }
+    
+    .mainflyer{width: 220px;
+    height: 298px; }
+    
+    .maintitle{font-size: 42px;}
+    
+    .maintext{font-size:28px;
+        gap: 19px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position:relative;
+    left:0px;}
+      
+}
