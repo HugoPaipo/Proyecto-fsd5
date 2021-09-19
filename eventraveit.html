@@ -13,13 +13,13 @@
     
 <header>
      <nav class="barrasup">
-        <a class="home"href="indexraveit.html"><button class="inicio">Inicio</button></a>
+        <button class="inicio"  onclick=irindex()>Inicio</button>
     </nav>   
 </header>
 
 <nav class="barrape" >
     
-    <a class="backmain"href="mainraveit.html"><button class="backevent">Eventos</button></a>  
+   <button class="backmain" onclick=irmainpage()>Eventos</button>  
     <h2 class="seleccionado">PROXIMOS</h2>
    
 </nav>
@@ -79,6 +79,14 @@
     </div>
 
 </footer>
+<script>
 
+function irindex(){
+location.href=("indexraveit.html")}
+
+function irmainpage() {
+location.href=("mainraveit.html")}
+
+</script>
 </body>
 </html>

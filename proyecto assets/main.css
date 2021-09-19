@@ -150,7 +150,7 @@ font-size: 18px;
 }
 main{display:grid;
 grid-template-areas:"aside1 contenedor aside2" ;  
-grid-template-columns:200px 880px 200px ;
+grid-template-columns:190px 880px 190px ;
 }
 
 .contenedor{grid-area:contenedor ;}
@@ -180,11 +180,12 @@ grid-template-columns:200px 880px 200px ;
 .mainflyer{width: 180px;
 height: 248px; }
 
-.maintitle{font-size: 30px;}
+.maintitle{font-size: 30px;
+width: 680px;}
 
 .maintext{font-size:20px;
     gap: 18px;
-    width:670px ;
+    width:650px ;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 } 
@@ -239,7 +240,7 @@ height: 248px; }
     }
     main{display:grid;
     grid-template-areas:"aside1 contenedor aside2" ;  
-    grid-template-columns:380px 1160px 380px ;
+    grid-template-columns:370px 1160px 370px ;
     }
     
     .contenedor{grid-area:contenedor ;}

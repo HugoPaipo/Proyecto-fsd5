@@ -21,14 +21,7 @@ body {width:auto;
           font-family:Georgia, 'Times New Roman', Times, serif;
           font-size:13px ;
          }        
-   
-  
-.home{text-decoration-line: none;
-  position: relative;
-  right:30px; ;
-          }
-
-                 
+                    
 header {
       background-image:url("raveitCEL.png");
       background-repeat: no-repeat;
@@ -62,8 +55,6 @@ aside{display:none;}
 .inicio{height:24px ;
   width:45px ;}
 
-.home{height:24px ;
-width:45px ;}
 
 header{background-image:url("raveitHD.png");
          height: 720px;}
@@ -83,9 +74,6 @@ aside{display: block;}
 .inicio{height:38px ;
   width:85px ;
   font-size:25px ;}
-
-.home{height:38px ;
-width:85px ;}
 
 header{background-image:url("raveitFULLHD.png");
          height: 1090px;}
