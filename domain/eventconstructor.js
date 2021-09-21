@@ -1,4 +1,4 @@
-class Event{
+class Eventomain{
     constructor(id,nombre,fecha,lugar,hora,genero){
            this.id = id,
            this.nombre = nombre, 

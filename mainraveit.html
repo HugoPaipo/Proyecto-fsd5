@@ -73,7 +73,7 @@
         <aside class="aside2">
                 <div></div>
         </aside>      
-        <div class="contenedor" id="event-contenedor">
+        <div class="contenedor" id="eventContenedor">
                  <!--   <div class="event">
                   
                             
@@ -184,27 +184,28 @@
         </div>
     
     </footer>
-<script> scr="domain/event_constructor.js"</script>
+<script> scr="./domain/eventconstructor.js"</script>
 <script>
-        let EventContenedor = document.getElementById('event-contenedor');
+        let EventContenedor = document.getElementById('eventContenedor');
         EventContenedor.innerHTML = ''
 
-let Events = [
-        new Event(1,'WARP','Montevideo','27/09/2021','23:00','Techno'),
-        new Event(2,'EVENTO 2','Montevideo','26/09/2021','23:00','Techno'),
-        new Event(3,'EVENTO 3','Canelones','6/10/2021','00:00','Tech house'),
-        new Event(4,'EVENTO 4','Maldonado','7/10/2021','23:30','Techno'),
-        new Event(5,'EVENTO 5','Maldonado','16/10/2021','23:00','Tech house'), 
-        new Event(6,'EVENTO 6','Canelones','27/10/2021','00:00','Techno'),
-        new Event(7,'EVENTO 7','Montevideo','20/10/2021','18:00','Tech house'),
-        new Event(8,'EVENTO 8','Paysandu','30/04/2022','21:00','Techno')
+let Eventosmain = [
+        new Eventomain(1,'WARP','Montevideo','27/09/2021','23:00','Techno'),
+        new Eventomain(2,'EVENTO 2','Montevideo','26/09/2021','23:00','Techno'),
+        new Eventomain(3,'EVENTO 3','Canelones','6/10/2021','00:00','Tech house'),
+        new Eventomain(4,'EVENTO 4','Maldonado','7/10/2021','23:30','Techno'),
+        new Eventomain(5,'EVENTO 5','Maldonado','16/10/2021','23:00','Tech house'), 
+        new Eventomain(6,'EVENTO 6','Canelones','27/10/2021','00:00','Techno'),
+        new Eventomain(7,'EVENTO 7','Montevideo','20/10/2021','18:00','Tech house'),
+        new Eventomain(8,'EVENTO 8','Paysandu','30/04/2022','21:00','Techno')
         ]
 let innerHTMLForEventContenedor = ''
-        Events.forEach(Event => {     
-        innerHTMLForEventContenedor += Event.innerHTMLForEvents()
+        Eventosmain.forEach(Eventomain => {     
+        innerHTMLForEventContenedor += Eventomain.innerHTMLForEvents()
         } )
 
 EventContenedor.innerHTML = innerHTMLForEventContenedor;
+console.log
    
 function irindex(){
 location.href=("indexraveit.html")}
