@@ -184,13 +184,14 @@
         </div>
     
     </footer>
-<script> scr="./domain/eventconstructor.js"</script>
+
+<script scr="./domain/eventconstructor.js"></script>
 <script>
         let EventContenedor = document.getElementById('eventContenedor');
         EventContenedor.innerHTML = ''
 
 let Eventosmain = [
-        new Eventomain(1,'WARP','Montevideo','27/09/2021','23:00','Techno'),
+        new Eventomain(1,'WARP', 'Montevideo', '27/09/2021', '23:00', 'Techno'),
         new Eventomain(2,'EVENTO 2','Montevideo','26/09/2021','23:00','Techno'),
         new Eventomain(3,'EVENTO 3','Canelones','6/10/2021','00:00','Tech house'),
         new Eventomain(4,'EVENTO 4','Maldonado','7/10/2021','23:30','Techno'),
@@ -205,11 +206,11 @@ let innerHTMLForEventContenedor = ''
         } )
 
 EventContenedor.innerHTML = innerHTMLForEventContenedor;
-console.log
+
    
 function irindex(){
 location.href=("indexraveit.html")}
-
+console.log()
 //document.Event(id).addEventListener('click',openevent) 
 
 //function openevent(){
