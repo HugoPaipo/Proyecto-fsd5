@@ -185,20 +185,20 @@
     
     </footer>
 
-<script scr="./domain/eventconstructor.js"></script>
+<script src="domain/eventconstructor.js"></script>
 <script>
         let EventContenedor = document.getElementById('eventContenedor');
         EventContenedor.innerHTML = ''
 
 let Eventosmain = [
-        new Eventomain(1,'WARP', 'Montevideo', '27/09/2021', '23:00', 'Techno'),
-        new Eventomain(2,'EVENTO 2','Montevideo','26/09/2021','23:00','Techno'),
-        new Eventomain(3,'EVENTO 3','Canelones','6/10/2021','00:00','Tech house'),
-        new Eventomain(4,'EVENTO 4','Maldonado','7/10/2021','23:30','Techno'),
-        new Eventomain(5,'EVENTO 5','Maldonado','16/10/2021','23:00','Tech house'), 
-        new Eventomain(6,'EVENTO 6','Canelones','27/10/2021','00:00','Techno'),
-        new Eventomain(7,'EVENTO 7','Montevideo','20/10/2021','18:00','Tech house'),
-        new Eventomain(8,'EVENTO 8','Paysandu','30/04/2022','21:00','Techno')
+        new Eventomain(1,'WARP', '27/09/2021', 'Montevideo', '23:00', 'Techno'),
+        new Eventomain(2,'EVENTO 2','26/09/2021','Maldonado','23:00','Techno'),
+        new Eventomain(3,'EVENTO 3','6/10/202','Maldonado','00:00','Tech house'),
+        new Eventomain(4,'EVENTO 4','7/10/2021','Canelones','23:30','Techno'),
+        new Eventomain(5,'EVENTO 5','16/10/2021','Montevideo','23:00','Tech house'), 
+        new Eventomain(6,'EVENTO 6','27/10/2021','Montevideo','00:00','Techno'),
+        new Eventomain(7,'EVENTO 7','20/10/2021','Canelones','18:00','Tech house'),
+        new Eventomain(8,'EVENTO 8','30/04/2022','Paysandu','21:00','Techno')
         ]
 let innerHTMLForEventContenedor = ''
         Eventosmain.forEach(Eventomain => {     
@@ -210,11 +210,11 @@ EventContenedor.innerHTML = innerHTMLForEventContenedor;
    
 function irindex(){
 location.href=("indexraveit.html")}
-console.log()
-//document.Event(id).addEventListener('click',openevent) 
 
-//function openevent(){
-//location.href=("eventraveit.html")}
+//innerHTML.Eventosmain.id.addEventListener('click',openevent) 
+
+function openevent(Eventomain){
+location.href=("eventraveit.html")}
 
 </script>
 </body>
