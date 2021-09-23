@@ -23,7 +23,7 @@ body {width:auto;
          }        
                     
 header {
-      background-image:url("raveitCEL.png");
+      background-image:url("raveitcelindex.jpg");
       background-repeat: no-repeat;
       background-size: 100% 100%;
       background-position: center;
@@ -56,7 +56,7 @@ aside{display:none;}
   width:45px ;}
 
 
-header{background-image:url("raveitHD.png");
+header{background-image:url("raveithd.png");
          height: 720px;}
 aside{display: block;}
 
@@ -75,7 +75,7 @@ aside{display: block;}
   width:85px ;
   font-size:25px ;}
 
-header{background-image:url("raveitFULLHD.png");
+header{background-image:url("raveitfullhd.png");
          height: 1090px;}
 aside{display: block;}
 

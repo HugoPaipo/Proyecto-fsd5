@@ -1,4 +1,4 @@
-.indeximg{background-image:url("raveitCEL.png");
+.indeximg{background-image:url("raveitcelindex.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -59,7 +59,7 @@ main button{text-decoration: none;
           
 @media (min-width:1260px ){
 
-.indeximg{background-image:url("raveitHD.png");
+.indeximg{background-image:url("raveithd.png");
 height: 720px;}
 
 .indeximg button{
@@ -83,7 +83,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 } 
 @media (min-width:1900px ) {
 
-.indeximg{background-image:url("raveitFULLHD.png");
+.indeximg{background-image:url("raveitfullhd.png");
  height:1090px;
 }
 
