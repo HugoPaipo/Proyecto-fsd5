@@ -9,7 +9,7 @@ class Eventomain {
         }
 
 innerHTMLForEvents(){
-    return(`<div class="event"${this.id}>
+    return(`<div class="event" onclick=openevent(${this.id})>
                   
                             
                                
