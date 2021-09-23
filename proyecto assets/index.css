@@ -59,7 +59,7 @@ main button{text-decoration: none;
           
 @media (min-width:1260px ){
 
-.indeximg{background-image:url("raveithd.png");
+.indeximg{background-image:url("raveitHD.png");
 height: 720px;}
 
 .indeximg button{
@@ -83,7 +83,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 } 
 @media (min-width:1900px ) {
 
-.indeximg{background-image:url("raveitfullhd.png");
+.indeximg{background-image:url("raveitFULLHD.png");
  height:1090px;
 }
 
