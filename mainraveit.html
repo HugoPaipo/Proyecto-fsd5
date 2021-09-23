@@ -11,16 +11,16 @@
 </head>
 <body>
     
-    <header>
+<header>
         <nav class="barrasup">
                  <button class="inicio"  onclick=irindex()>Inicio</button>
         </nav> 
-    </header>
-    <nav class="barra">
-          <div class="diveventossel">  
+</header>
+<nav class="barra">
+        <div class="diveventossel">  
                 <label for="eventossel"></label>
                 <select name="eventossel" id="eventossel">
-                        <option value="Proximamente">Proximos</option>
+                        <option value="Proximos">Proximos</option>
                         <option value="Historial">Historial</option>
                 </select>
         </div>
@@ -65,8 +65,8 @@
             <button class="filtros">Filtrar</button>
         
 
-    </nav>
-    <main>
+</nav>
+<main>
         <aside class="aside1">
                 <div></div>
         </aside>
@@ -74,148 +74,26 @@
                 <div></div>
         </aside>      
         <div class="contenedor" id="eventContenedor">
-                 <!--   <div class="event">
-                  
-                            
-                               
-                                <img class="mainflyer" src="proyecto assets/evento warp.jpg"  width="90px" height="143px" alt="imagen"/>
-                                <h4 class="maintitle">W A R P</h4>
-                                <div class="maintext">
-                                        
-                                <span><b>Fecha: </b> 17/09/2021</span>
-                                <span><b>Lugar: </b> Montevideo</span>
-                                <span><b>Hora: </b> 23:00 a 06:00</span>
-                                <span><b>Genero: </b> Techno</span>
-                              
-                                </div> 
-                             
-                    </div>
-                    <div class="event">
-                                <img class="mainflyer" src="proyecto assets/evento 2.jpg" width="90px" height="143px" alt="imagen"/>
-                                <h4 class="maintitle"> HARD SHIFT FESTIVAL</h4>
-                                <div class="maintext">
-                               
-                                        <span><b>Lugar:</b> Lorem ipsum dolor sit </span>
-                                        <span><b>Fecha:</b> Lorem ipsum dolor sit </span>
-                                        <span><b>Horario:</b> Lorem Lorem </span>
-                                        <span><b>Genero:</b> Sociosqu magna porta</span>
-                               
-                    
-                                </div> 
-                                
-                    </div>
-                    <div class="event">
-                                <img class="mainflyer" src="proyecto assets/evento1.jpg" width="90px" height="143px" alt="imagen"/>
-                                <h4 class="maintitle">LOREM IPSUM DOLOR</h4>
-                                <div class="maintext">
-                   
-                                        <span><b>Lugar:</b> </span>
-                                        <span><b>Fecha:</b></span>
-                                        <span><b>Hora:</b></span>
-                                        <span<b>Genero:</b></span>
-                   
-         
-                                </div> 
-                                
-                    </div>
-                    <div class="event">
-                                <img class="mainflyer" src="proyecto assets/evento 4.jpg" width="90px" height="143px" alt="imagen"/>       
-                                <h4 class="maintitle">LOREM IPSUM DOLOR</h4>
-                                <div class="maintext">
-                   
-                                        <span><b>Lugar:</b> asldjlasjdksj nskj</span>
-                                        <span><b>Fecha:</b></span>
-                                        <span><b>Hora:</b></span>
-                                        <span><b>Genero:</b></span>
-                   
-         
-                                </div> 
-                                
-                    </div>
-                    <div class="event">
-                                <img class="mainflyer" src="proyecto assets/evento 5.jpg" width="90px" height="143px" alt="imagen"/>                
-                                <h4 class="maintitle">LOREM IPSUM DOLOR</h4>
-                                <div class="maintext">
-                   
-                                        <span><b>Lugar:Lorem ipsum dolor</b></span>
-                                        <span><b>Fecha:</b></span>
-                                        <span><b>Hora:</b></span>
-                                        <span><b>Genero:</b></span>
-                   
-         
-                                </div> 
-                                
-                    </div>
-                    <div class="event">
-                                <img class="mainflyer" src="proyecto assets/evento 3.jpg" width="90px" height="143px" alt="imagen"/>
-                                <h4 class="maintitle">LOREM IPSUM DOLOR</h4>
-                                <div class="maintext">
-                   
-                                        <span><b>Lugar:</b> asldjlasjdksj nskj</span>
-                                        <span><b>Fecha:</b></span>
-                                        <span><b>Hora:</b></span>
-                                        <span><b>Genero:</b></span>
-                   
-         
-         
-                                </div> 
-                              
-                    </div>
-                    <div class="event">
-                                <img class="mainflyer" src="proyecto assets/evento.jpg" width="90px" height="143px" alt="imagen"/>
-                                <h4 class="maintitle">HARD SHIFT FESTIVAL</h4>
-                                <div class="maintext">
-                   
-                                        <span><b>Lugar:</b> asldjlasjdksj nskj</span>
-                                        <span><b>Fecha:</b></span>
-                                        <span><b>Hora:</b></span>
-                                        <span><b>Genero:</b></span>
-                   
-         
-         
-                                </div> 
-                                
-                    </div> -->
+                
         </div> 
-    </main>
-    <footer class=foot>
+</main>
+<footer class=foot>
         <div >
             <span class="copyr"> Copyright  &#169; 2021 por Hugo Paipó</span>
         </div>
     
-    </footer>
+</footer>
 
 <script src="domain/eventconstructor.js"></script>
+<script src="domain/filtros.js"></script>
 <script>
-        let EventContenedor = document.getElementById('eventContenedor');
-        EventContenedor.innerHTML = ''
+        
+        function irindex(){
+        location.href=("indexraveit.html")}
 
-let Eventosmain = [
-        new Eventomain(1,'WARP', '27/09/2021', 'Montevideo', '23:00', 'Techno'),
-        new Eventomain(2,'EVENTO 2','26/09/2021','Maldonado','23:00','Techno'),
-        new Eventomain(3,'EVENTO 3','6/10/202','Maldonado','00:00','Tech house'),
-        new Eventomain(4,'EVENTO 4','7/10/2021','Canelones','23:30','Techno'),
-        new Eventomain(5,'EVENTO 5','16/10/2021','Montevideo','23:00','Tech house'), 
-        new Eventomain(6,'EVENTO 6','27/10/2021','Montevideo','00:00','Techno'),
-        new Eventomain(7,'EVENTO 7','20/10/2021','Canelones','18:00','Tech house'),
-        new Eventomain(8,'EVENTO 8','30/04/2022','Paysandu','21:00','Techno')
-        ]
-let innerHTMLForEventContenedor = ''
-        Eventosmain.forEach(Eventomain => {     
-        innerHTMLForEventContenedor += Eventomain.innerHTMLForEvents()
-        } )
-
-EventContenedor.innerHTML = innerHTMLForEventContenedor;
-
-   
-function irindex(){
-location.href=("indexraveit.html")}
-
-
- 
-function openevent(id){
-location.href=("eventraveit.html")}
-        º       
+        function openevent(id){
+        location.href=("eventraveit.html")}
+               
 </script>
 </body>
 </html>
