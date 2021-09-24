@@ -15,25 +15,17 @@ let EventContenedor = document.getElementById('eventContenedor');
 
 let filtroPor = Eventosmain;
 
-filtroGenero(); Eventosmain,this.genero == filtroGenerofield.value;
-                
-filtroLugar();  Eventosmain,this.lugar == filtroLugarfield.value;                     
-             
-               
-                
-
-              
-                 
-                 
-                    
-              
- 
 Eventosmain
                 .filter(Eventomain => Eventomain.filtroGenero())
                
 Eventosmain
                 .filter(Eventomain => Eventomain.filtroLugar())
+                
+function filtroGenero(){Eventosmain,this.genero == filtroGenerofield.value;}
+                
+ function filtroLugar(){Eventosmain,this.lugar == filtroLugarfield.value;}                       
              
+               
                 
 
 function filtroGL() {
