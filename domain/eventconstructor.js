@@ -26,6 +26,21 @@ innerHTMLForEvents(){
             </div>`
 )
 }
+filtroGenero(){
+if (this.genero = filtroGenerofield.value) {
+    return true;}
+ else {
+    return false;}
+}
+
+filtroLugar(){
+    if (this.lugar = filtroLugarfield.value) {
+        return true;}
+     else {
+        return false;}
+    }
+    
+
 }
 let Eventosmain = [
     new Eventomain(1,'WARP', '27/09/2021', 'Montevideo', '23:00', 'Techno'),
