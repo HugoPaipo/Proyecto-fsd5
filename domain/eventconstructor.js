@@ -1,13 +1,13 @@
 class Eventomain {
     constructor(id,nombre,fecha,lugar,hora,genero){
            this.id = id,
-           this.nombre = nombre, 
-           this.fecha = fecha,
-           this.lugar = lugar,
-           this.hora = hora,
-           this.genero = genero   
+           this.nombre = nombre; 
+           this.fecha = fecha;
+           this.lugar = lugar;
+           this.hora = hora;
+           this.genero = genero;   
         }
-        
+         
 
 innerHTMLForEvents(){
     return(`<div class="event" onclick=openevent(${this.id})>
@@ -26,22 +26,9 @@ innerHTMLForEvents(){
             </div>`
 )
 }
-filtroGenero(){
-if (this.genero = filtroGenerofield.value) {
-    return true;}
- else {
-    return false;}
-}
+} 
+  
 
-filtroLugar(){
-    if (this.lugar = filtroLugarfield.value) {
-        return true;}
-     else {
-        return false;}
-    }
-    
-
-}
 let Eventosmain = [
     new Eventomain(1,'WARP', '27/09/2021', 'Montevideo', '23:00', 'Techno'),
     new Eventomain(2,'EVENTO 2','26/09/2021','Maldonado','23:00','Techno'),
@@ -52,4 +39,14 @@ let Eventosmain = [
     new Eventomain(7,'EVENTO 7','20/10/2021','Canelones','18:00','Tech house'),
     new Eventomain(8,'EVENTO 8','30/04/2022','Paysandu','21:00','Techno')
     ];
-             
+
+    let EventContenedor = document.getElementById('eventContenedor');
+    EventContenedor.innerHTML = ''
+
+  
+    let innerHTMLForEventContenedor = ''
+            Eventosmain.forEach(Eventomain => {     
+            innerHTMLForEventContenedor += Eventomain.innerHTMLForEvents()
+            } )
+
+    EventContenedor.innerHTML = innerHTMLForEventContenedor;
