@@ -21,7 +21,7 @@ innerHTMLForEvents(){
                     <span><b>Fecha: </b> ${this.fecha}</span>
                     <span><b>Lugar: </b> ${this.lugar}</span>
                     <span><b>Hora: </b> ${this.hora}</span>
-                    <span><b>Genero: </b> ${this.genero}</span>
+                    <span><b>Género: </b> ${this.genero}</span>
                 </div>
             </div>`
 )
