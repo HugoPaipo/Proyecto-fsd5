@@ -1,3 +1,5 @@
+body{background-color: black;}
+
 .indeximg{background-image:url("raveitcelindex.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -91,7 +93,7 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   height:50px;
   font-size: 20px;
 }
-.indexnav{height:50vh ;}
+.indexnav{height:600px ;}
 
 .indexnav div{height:50vh ;
 row-gap: 25px;}
