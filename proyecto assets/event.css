@@ -27,8 +27,8 @@ color: black;}
 font-family: Cochin, Georgia, Times, 'Times New Roman', serif;}
 
 .pemain{height: 700px;
-  background: rgb(0,0,0);
-  background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(14,214,64,1) 50%, rgba(0,0,0,1) 95%);
+  background: rgb(14,214,64);
+background: linear-gradient(311deg, rgba(14,214,64,1) 5%, rgba(5,79,24,1) 32%, rgba(0,0,0,1) 44%, rgba(0,0,0,1) 68%, rgba(14,214,64,1) 94%);
 }
 .pecontenedor{ display:grid;
           grid-template-columns: 1fr 2fr;

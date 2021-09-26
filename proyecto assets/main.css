@@ -46,17 +46,14 @@ font-family: Verdana, sans-serif;}
 color: black;}
 
 main{height:100vh;
-   background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(14,214,64,1) 50%, rgba(0,0,0,1) 95%);}
+    background: rgb(14,214,64);
+background: linear-gradient(311deg, rgba(14,214,64,1) 5%, rgba(5,79,24,1) 32%, rgba(0,0,0,1) 44%, rgba(0,0,0,1) 68%, rgba(14,214,64,1) 94%);}
 
-
-
-.contenedor{overflow: scroll;
-          overflow: auto;
-          height: 100vh;
+.contenedor{overflow-y: scroll;
+         height: 100vh;
           position:relative;
           z-index: 10;
-          background-color: rgba(0,0,0,.1);
+          background-color: rgba(0,0,0,.3);
          
             }
 
@@ -202,7 +199,7 @@ width: 680px;}
 }
 
     
-    .diveventossel{display: block;
+.diveventossel{display: block;
                 grid-area:evento ;
                 height: 76px;
                 width: 760px;
@@ -213,39 +210,39 @@ width: 680px;}
                  right:90px;
     }
     
-    #eventossel{height: 58px;
+#eventossel{height: 58px;
     width:560px ;
     font-size: 26px; 
     }
     
-    #Lugarsel{height: 58px;
+#Lugarsel{height: 58px;
         width:190px ;
         font-size :21px; 
         grid-area:lugar ;}
     
-    #Generosel{height: 58px;
+#Generosel{height: 58px;
             width:190px ;
             font-size :21px; 
             grid-area:genero;}
     
-    .barra span{display: block;
+.barra span{display: block;
         grid-area:texto ;
         font-size :21px; }
     
-    .filtros{grid-area:boton ;
+.filtros{grid-area:boton ;
             width: 120px; 
             height: 45px;
             font-size:20px ;
             
     }
-    main{display:grid;
+main{display:grid;
     grid-template-areas:"aside1 contenedor aside2" ;  
     grid-template-columns:370px 1160px 370px ;
     }
     
-    .contenedor{grid-area:contenedor ;}
+.contenedor{grid-area:contenedor ;}
     
-    .aside1{grid-area: aside1;
+.aside1{grid-area: aside1;
         border-color:black;
         border-style:groove;
         border-top:none ;
@@ -254,27 +251,29 @@ width: 680px;}
         border-width: 2px;          
     }
     
-    .aside2{grid-area: aside2 ;
+.aside2{grid-area: aside2 ;
         border-color:black;
         border-style:groove;
         border-top:none ;
         border-bottom:none ;
         border-right: none;
-        border-width: 1px;  }
+        border-width: 1px;  
+        }
+ 
     
-    .event{height: 300px; ;
-        grid-template-columns:264px 896px ;
-        grid-template-rows:75px 225px;
+.event{height: 300px; ;
+    grid-template-columns:264px 896px ;
+    grid-template-rows:75px 225px;
         }
     
-    .mainflyer{width: 220px;
+.mainflyer{width: 220px;
     height: 298px; }
     
-    .maintitle{font-size: 42px;}
+.maintitle{font-size: 42px;}
     
-    .maintext{font-size:28px;
-        gap: 19px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.maintext{font-size:28px;
+    gap: 19px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position:relative;
     left:0px;}
       

@@ -36,8 +36,8 @@ let Eventosmain = [
     new Eventomain(4,'EVENTO 4','7/10/2021','Canelones','23:30','Techno'),
     new Eventomain(5,'EVENTO 5','16/10/2021','Montevideo','23:00','Tech house'), 
     new Eventomain(6,'EVENTO 6','27/10/2021','Montevideo','00:00','Techno'),
-    new Eventomain(7,'EVENTO 7','20/10/2021','Canelones','18:00','Tech house'),
-    new Eventomain(8,'EVENTO 8','30/04/2022','Paysandu','21:00','Techno')
+    new Eventomain(7,'EVENTO 7','15/02/2022','Paysandu','18:00','Otros'),
+    new Eventomain(8,'EVENTO 8','18/03/2022','Artigas','21:00','Psytrance')
     ];
 
     let EventContenedor = document.getElementById('eventContenedor');
