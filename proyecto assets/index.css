@@ -104,8 +104,10 @@ row-gap: 25px;}
 
 .indexnav h3 {font-size: 35px;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+.aboutindex{height: 640px;}
 
 #about{font-size: 25px;
-  line-height:35px ;}
+  line-height:35px ;
+height:620px;}
 
 }          
