@@ -32,7 +32,7 @@ innerHTMLForEvents(){
 let Eventosmain = [
     new Eventomain(1,'WARP', '27/09/2021', 'Montevideo', '23:00', 'Techno'),
     new Eventomain(2,'EVENTO 2','26/09/2021','Maldonado','23:00','Techno'),
-    new Eventomain(3,'EVENTO 3','6/10/202','Maldonado','00:00','Tech house'),
+    new Eventomain(3,'EVENTO 3','6/10/2021','Maldonado','00:00','Tech house'),
     new Eventomain(4,'EVENTO 4','7/10/2021','Canelones','23:30','Techno'),
     new Eventomain(5,'EVENTO 5','16/10/2021','Montevideo','23:00','Tech house'), 
     new Eventomain(6,'EVENTO 6','27/10/2021','Montevideo','00:00','Techno'),
